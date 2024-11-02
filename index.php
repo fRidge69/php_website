@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>BMW Cars</h1>
-    <div class="car-container">
+    <div class="car-container"> /*container for car tiles*/
         <?php
             $stmt = $pdo->query("SELECT * FROM cars");
             while ($row = $stmt->fetch()) {
