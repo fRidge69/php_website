@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 $id = $_GET['id'];
-$stmt = $pdo->prepare("SELECT * FROM cars WHERE id = ?");
+$stmt = $pdo->prepare("SELECT * FROM cars WHERE id = ?");/*query*/
 $stmt->execute([$id]);
 $car = $stmt->fetch();
 ?>
