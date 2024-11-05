@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW Cars</title>
+    <title>Mercedez Benz Cars</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>BMW Cars</h1>
+    <h1>Mercedez Benz Cars</h1>
     <div class="car-container"> /*container for car tiles*/
         <?php
             $stmt = $pdo->query("SELECT * FROM cars");

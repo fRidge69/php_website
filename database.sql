@@ -39,17 +39,17 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`id`, `model`, `engine`, `horsepower`, `torque`, `price`, `image`) VALUES
-(100, 'M3 Competition', 2998, 430, 200, '1.5cr', 'https://cdn.motor1.com/images/mgl/1ZQrxK/s1/2023-bmw-m3-cs-first-drive-review.webp'),
-(101, 'M4 Competition', 2993, 543, 650, '1.8cr', 'https://bmw.scene7.com/is/image/BMW/g82_cs_ext_m-design-engine-bonnet_fb?qlt=80&wid=1024&fmt=webp'),
-(102, 'M5 Competition', 4395, 617, 750, '2.1cr', 'https://img.indianautosblog.com/2021/07/02/2021-bmw-m5-competition-front-3-quarter-683a.jpg'),
-(103, 'X1', 1995, 148, 360, '52L', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/140591/x1-exterior-left-front-three-quarter-2.png?isig=0&q=80'),
-(104, 'XM', 4395, 644, 800, '2.6cr', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/135681/xm-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80'),
-(105, 'X3', 1995, 144, 400, '70L', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/110503/x3-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80'),
-(106, 'X5', 2998, 375, 650, '1cr', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/152681/x5-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80'),
-(107, 'M340i', 2998, 310, 380, '72L', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/135697/m340i-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80'),
-(108, 'i7', 0, 530, 601, '2cr', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/137875/i7-exterior-right-front-three-quarter-8.jpeg?isig=0&q=80'),
-(109, 'M8', 4395, 617, 750, '2.4cr', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/47278/m8-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80'),
-(110, 'Z4', 3000, 335, 500, '90L', 'https://imgd.aeplcdn.com/664x374/n/cw/ec/149075/z4-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80');
+(200, 'C63 AMG', 3982, 503, 700, '1.3cr', 'https://cdn.motor1.com/images/mgl/YLL7V/s1/2023-mercedes-amg-c63.webp'),
+(201, 'E63 AMG', 3982, 603, 850, '1.6cr', 'https://cdn.motor1.com/images/mgl/mg6pp/s1/mercedes-amg-e63-s.webp'),
+(202, 'S63 AMG', 3982, 603, 900, '2.6cr', 'https://cdn.motor1.com/images/mgl/8Z0g8/s1/mercedes-s63-amg.webp'),
+(203, 'GLE 63 AMG', 3982, 603, 850, '1.9cr', 'https://cdn.motor1.com/images/mgl/zG66O/s1/mercedes-amg-gle63.webp'),
+(204, 'GLS 63 AMG', 3982, 603, 850, '2.4cr', 'https://cdn.motor1.com/images/mgl/6QKKR/s1/mercedes-amg-gls63.webp'),
+(205, 'A35 AMG', 1991, 306, 400, '58L', 'https://cdn.motor1.com/images/mgl/XYYVV/s1/2023-mercedes-amg-a35.webp'),
+(206, 'CLA 45 AMG', 1991, 382, 480, '82L', 'https://cdn.motor1.com/images/mgl/rxxgG/s1/mercedes-amg-cla45.webp'),
+(207, 'GT 63 S AMG', 3982, 630, 900, '3.3cr', 'https://cdn.motor1.com/images/mgl/RooG6/s1/2023-mercedes-amg-gt63s.webp'),
+(208, 'GLA 45 AMG', 1991, 382, 480, '80L', 'https://cdn.motor1.com/images/mgl/8JMM9/s1/mercedes-amg-gla45.webp'),
+(209, 'S500', 2999, 429, 520, '1.7cr', 'https://cdn.motor1.com/images/mgl/mg2bZ/s1/2023-mercedes-s500.webp');
+
 
 --
 -- Indexes for dumped tables
